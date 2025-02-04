@@ -1,0 +1,25 @@
+h2 {
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: orange;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.category button:hover {
+    background-color: orangered;
+    transition: background-color .75s linear;
+}
+
+.pic {
+    height: 200px;
+    width: 100%;
+}
